@@ -16,9 +16,11 @@ def enter_move(board):
 	ok = False	# fake assumption - we need it to enter the loop
 	while not ok:
 		move = input("Enter your move: ") 
-		ok = len(move) == 1 and move >= '1' and move <= '9' # is user's input valid?
+		ok = len(move) == 1 and move >= '1' and move <= '9' 
+		# Checking user's input validity?
 		if not ok:
-			print("Bad move - repeat your input!") # no, it isn't - do the input again
+			# If not - do the input again
+			print("Bad move - repeat your input!") 
 			continue
 		move = int(move) - 1 	# cell's number from 0 to 8
 		row = move // 3 	# cell's row
