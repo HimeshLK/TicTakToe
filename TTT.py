@@ -19,7 +19,6 @@ def enter_move(board):
 		ok = len(move) == 1 and move >= '1' and move <= '9' 
 		
 		if not ok:
-			
 			print("Bad move - repeat your input!") 
 			continue
 		move = int(move) - 1 	
