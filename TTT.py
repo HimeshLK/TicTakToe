@@ -1,7 +1,7 @@
 #imports
 from random import randrange
 
-
+#Drawing the Grid
 def display_board(board):
 	print("+-------" * 3,"+", sep="")
 	for row in range(3):
