@@ -12,7 +12,7 @@ def display_board(board):
 		print("|       " * 3,"|",sep="")
 		print("+-------" * 3,"+",sep="")
 
-
+#Movements
 def enter_move(board):
 	ok = False	
 	while not ok:
