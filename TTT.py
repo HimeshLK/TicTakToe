@@ -73,6 +73,7 @@ def draw_move(board):
 		board[row][col] = 'X'
 
 
+#Marking X and 0 s
 board = [ [3 * j + i + 1 for i in range(3)] for j in range(3) ] 
 board[1][1] = 'X' 
 free = make_list_of_free_fields(board)
